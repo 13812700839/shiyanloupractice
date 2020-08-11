@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>DOM的练习</title>
+</head>
+<body>
+    <p id="p1">Hello World</p>
+    <img id="img" src="https://www.baidu.com/img/bd_logo1.png" />
+    <p id="syl" style="color:red;">实验楼</p>
+    <input type="text" />
+    <input type="text" /><br>
+    <!-- 鼠标单击事件 -->
+    <p onclick="this.innerHTML='我爱学习，身体好好！'">请点击该文本</p>
+    <!-- 鼠标双击事件 -->
+    <h1 ondblclick="changetext(this)">请点击该文本</h1>
+    <!-- 鼠标移除悬停 -->
+    <div
+        onmouseover="mOver(this)"
+        onmouseout="mOut(this)"
+        style="background-color：deepskyblue;width:200px;height:100px;">
+        把鼠标移到上面
+    </div>
+    <script type="text/javascript" src="js/DOMpractice.js"></script>
+</body>
+</html>
